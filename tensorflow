@@ -1,0 +1,17 @@
+#创建命名空间
+with tf.name.scope("input")
+  x = tf.placeholder(tf.float32, [None, 10],name = 'x-input')
+  y = tf.placeholder(tf.float32, [None, 10], name ='y-input')
+  
+  
+  
+  
+  
+  
+  
+  #after sess.run(init)
+  writer = tf.summary.FileWriter('logs/', sess.graph)
+  
+  # 在cmd中tensorflow路径下
+  tensorflow --logdir = ''
+  #进入返回的IP 
