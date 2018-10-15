@@ -7,7 +7,7 @@ with tf.name.scope("input")
   
   
   
-  
+  boa
   
   #after sess.run(init)
   writer = tf.summary.FileWriter('logs/', sess.graph)
